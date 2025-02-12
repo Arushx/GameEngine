@@ -3,12 +3,16 @@
 
 #include <iostream>
 
+// CMD + SHIFT + B to build
+// Terminal ./app to run code
+// Development Log: https://docs.google.com/document/d/13Mhc_664YCKbcLfabN7K6UhB6GG_PHt2Rbv-Hb-J_CA/edit?usp=sharing 
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 1920;
+const unsigned int SCR_HEIGHT = 1080;
 
 const char *vertexShaderSource = "#version 330 core\n"
     "layout (location = 0) in vec3 aPos;\n"
